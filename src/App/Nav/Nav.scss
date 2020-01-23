@@ -1,0 +1,77 @@
+.Nav { 
+    background: rgb(0, 132, 255);
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+
+    .hamburger {
+        width: 30px;
+        height: 30px;
+
+        position: absolute;
+        right: 10px;
+        top: 10px;
+        color:white;
+
+        svg {
+            width: 100%;
+            height: auto;
+            
+        }
+
+        &:hover {
+            color: grey;
+            cursor: pointer;
+        }
+        
+        
+        display:block;
+        
+    }
+
+
+    .links{
+        
+
+        text-align: center;
+
+        a {
+            background-color: rgb(58, 90, 105);
+                color: white;
+
+                display:block;
+                padding: 20px;
+                border-radius: 5px;
+                margin: 10px;
+                
+                text-decoration: none;
+                text-transform: uppercase;
+
+                transition: all 1s;
+
+                border: solid 2px white;
+
+                &:hover {
+                    border: solid 2px rgb(58, 90, 105);
+                    background-color: white;
+                    color: rgb(58, 90, 105);
+            
+                }
+        }
+    }
+
+}
+@media screen and (min-width: 600px) {
+    .Nav{
+        .hamburger{
+            display: none;
+        }
+
+        .links {
+            a{
+                display: inline-block;
+            }
+        }
+    }
+}
+
