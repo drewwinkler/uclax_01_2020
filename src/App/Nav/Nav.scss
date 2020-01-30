@@ -55,7 +55,9 @@
                     border: solid 2px rgb(58, 90, 105);
                     background-color: white;
                     color: rgb(58, 90, 105);
-            
+                }
+                &.active {
+                    background-color: red;
                 }
         }
     }
