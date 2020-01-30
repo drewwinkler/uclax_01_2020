@@ -2,15 +2,19 @@
     .tabs {
         display: flex;
         .tab {
-            background-color: teal;
+            background-color: rgb(228, 231, 18);
             padding: 10px 20px;
             border-radius: 5px 5px 0px 0px;
             margin-right: 10px;
+
+            &.active {
+                background-color: teal;
+            }
         }
     }
 
     .content {
-        background-color: teal;
+        background-color: rgb(5, 141, 141);
         padding: 20px;
         img {}
         h2 {}
