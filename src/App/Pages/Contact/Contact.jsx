@@ -3,8 +3,8 @@ import '../Pages.scss';
 import './Contact.scss';
 
 import Address from './Address/Address.jsx';
-import ContactForm from './ContactForm/ContactForm';
-import GoogleMap from './GoogleMap/GoogleMap';
+import ContactForm from './ContactForm/ContactForm.jsx';
+import GoogleMap from './GoogleMap/GoogleMap.jsx';
 
 const Contact = () => {
     return (

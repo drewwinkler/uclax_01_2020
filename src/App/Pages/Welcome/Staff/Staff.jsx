@@ -1,6 +1,6 @@
 import React from 'react';
 import './Staff.scss';
-import { staffMembers } from './staff.js';
+import { staffMembers } from './Staff.js';
 
 const StaffMembers = () => {    
     console.log('staffMembers', staffMembers);
